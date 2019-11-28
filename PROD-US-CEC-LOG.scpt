@@ -1,4 +1,4 @@
-set hostnames to {"va1-p2-flnkm-01", "va1-p2-flnkm-02", "va1-p2-flnkw-01", "va1-p2-flnkw-02", "va1-p2-flnkw-03","va1-p2-flnkw-04"}
+set hostnames to {"va1-p2-flnkm-01", "va1-p2-flnkm-02", "va1-p2-flnkw-01", "va1-p2-flnkw-02", "va1-p2-flnkw-03","va1-p2-flnkw-04","va1-p2-flnkw-05","va1-p2-flnkw-06"}
 
 if application "iTerm" is running then
 	tell application "iTerm"
