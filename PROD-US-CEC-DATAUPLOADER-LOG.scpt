@@ -17,6 +17,7 @@ if application "iTerm" is running then
                 select
                 tell current session
                     write text "ssh " & (item n of hostnames) & ".ctcolo.dom"
+                    write text "tail -f /opt/dataUploader/logs/application.log"
                 end tell
             end tell
             delay 1
